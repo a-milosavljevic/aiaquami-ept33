@@ -7,8 +7,7 @@ Training scripts for the AIAQUAMI-EPT33 dataset size and balance experiments
 - After setting up CUDA and cuDNN, install the project requirements listed in <code>[requirements.txt](requirements.txt)</code> file.
 
 ## Train model on a custom dataset
-1) Create a root folder for the dataset and place images into <code>data/data_original</code> subfolder. 
-Images for each class should be placed in a separate folder. Name of these folders should correspond to class names.
+1) Create a root folder for the dataset and place extracted dataset images into <code>data/data_original</code> subfolder. 
 2) In <code>[settings.py](settings.py)</code> change value for <code>root_folder</code> variable to appropriate value.
 3) Reset <code>experiment_no</code> to 1 and select appropriate dataset configuration (<code>subset_distribution</code> and <code>data_sub_folder</code> parameters) in <code>[settings.py](settings.py)</code>.
 4) In the case of the dataset balance experiment, in addition, please check <code>balance_dataset</code> parameter in <code>[settings.py](settings.py) that controls internal class balancing.
