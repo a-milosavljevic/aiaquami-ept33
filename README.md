@@ -18,7 +18,7 @@ Results will be saved to <code>tmp</code> dataset subfolder.
 7) In case training crushes due to lack of memory, reduce <code>batch_size</code> and repeat training.
 8) Once training is finished, you may find results in <code>tmp</code> folder, under the current experiment subfolder. 
 
-## Download pretrained models
+## Download dataset and pretrained models
 The dataset images and pretrained models for all conducted experiments are available for download in the repository release section:<br/>
 https://github.com/a-milosavljevic/aiaquami-ept33/releases
 
