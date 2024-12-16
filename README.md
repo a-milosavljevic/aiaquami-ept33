@@ -10,7 +10,7 @@ Training scripts for the AIAQUAMI-EPT33 dataset size and balance experiments
 1) Create a root folder for the dataset and place extracted dataset images into <code>data/data_original</code> subfolder. 
 2) In <code>[settings.py](settings.py)</code> change value for <code>root_folder</code> variable to appropriate value.
 3) Reset <code>experiment_no</code> to 1 and select appropriate dataset configuration (<code>subset_distribution</code> and <code>data_sub_folder</code> parameters) in <code>[settings.py](settings.py)</code>.
-4) In the case of the dataset balance experiment, in addition, please check <code>balance_dataset</code> parameter in <code>[settings.py](settings.py) that controls internal class balancing.
+4) In the case of the dataset balance experiment, in addition, please check <code>balance_dataset</code> parameter in <code>[settings.py](settings.py)</code> that controls internal class balancing.
 5) Run <code>[prepare_data.py](prepare_data.py)</code> script to resize images and divide them into train, validation, and test subsets.
 6) Run <code>[train.py](train.py)</code> to train the model and generate confusion matrices. 
 Results will be saved to <code>tmp</code> dataset subfolder. 
